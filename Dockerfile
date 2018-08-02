@@ -19,10 +19,12 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
      python \
      wget
 
+ENV SPADES_RELEASE=3.10.1
+
 RUN cd /tmp/ && \
-    wget -O - http://cab.spbu.ru/files/release3.10.1/SPAdes-3.10.1-Linux.tar.gz | \
+    wget -O - http://cab.spbu.ru/files/release${SPADES_RELEASE}/SPAdes-${SPADES_RELEASE}-Linux.tar.gz | \
        tar -xzf - && \
-    mv SPAdes-3.10.1-Linux/ /opt//spades/
+    mv SPAdes-${SPADES_RELEASE}-Linux/ /opt//spades/
 
 ENV PATH "/opt/spades/bin:$PATH"
 
