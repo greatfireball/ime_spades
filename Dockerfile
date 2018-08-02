@@ -19,7 +19,7 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
      python \
      wget
 
-ENV SPADES_RELEASE "3.11.1"
+ENV SPADES_RELEASE "3.12.0"
 
 RUN cd /tmp/ && \
     wget -O - http://cab.spbu.ru/files/release${SPADES_RELEASE}/SPAdes-${SPADES_RELEASE}-Linux.tar.gz | \
