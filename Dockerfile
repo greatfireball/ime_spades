@@ -16,22 +16,8 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
       org.label-schema.vcs-url="https://github.com/greatfireball/ime_spades.git"
 
  RUN apt update && apt install --yes \
-#     liblog-log4perl-perl \
-#     libmoose-perl \
-#     libfile-which-perl \
-#     libipc-run-perl \
-#     libterm-progressbar-perl \
-#     libgraph-perl \
-#     bowtie2 \
-#     ncbi-blast+ \
-#     samtools \
-#     bedtools \
-#     r-base \
-#     ghostscript \
-#     jellyfish \
      python \
      wget
-#     git
 
 RUN cd /tmp/ && \
     wget -O - http://cab.spbu.ru/files/release3.10.1/SPAdes-3.10.1-Linux.tar.gz | \
