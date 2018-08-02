@@ -29,7 +29,7 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
 #     r-base \
 #     ghostscript \
 #     jellyfish \
-#     python \
+     python \
      wget
 #     git
 
