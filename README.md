@@ -24,6 +24,11 @@ Specific tags are used for different SPAdes release.
 - [![](https://images.microbadger.com/badges/commit/greatfireball/ime_spades:master.svg)](https://microbadger.com/images/greatfireball/ime_spades:master "Get your own commit badge on microbadger.com")
 - [![](https://images.microbadger.com/badges/image/greatfireball/ime_spades:master.svg)](https://microbadger.com/images/greatfireball/ime_spades:master "Get your own image badge on microbadger.com")
 
+### release3.11.1
+- [![](https://images.microbadger.com/badges/version/greatfireball/ime_spades:3.11.1.svg)](https://microbadger.com/images/greatfireball/ime_spades:3.11.1 "Get your own version badge on microbadger.com")
+- [![](https://images.microbadger.com/badges/commit/greatfireball/ime_spades:3.11.1.svg)](https://microbadger.com/images/greatfireball/ime_spades:3.11.1 "Get your own commit badge on microbadger.com")
+- [![](https://images.microbadger.com/badges/image/greatfireball/ime_spades:3.11.1.svg)](https://microbadger.com/images/greatfireball/ime_spades:3.11.1 "Get your own image badge on microbadger.com")
+
 ### release3.11.0
 - [![](https://images.microbadger.com/badges/version/greatfireball/ime_spades:3.11.0.svg)](https://microbadger.com/images/greatfireball/ime_spades:3.11.0 "Get your own version badge on microbadger.com")
 - [![](https://images.microbadger.com/badges/commit/greatfireball/ime_spades:3.11.0.svg)](https://microbadger.com/images/greatfireball/ime_spades:3.11.0 "Get your own commit badge on microbadger.com")
