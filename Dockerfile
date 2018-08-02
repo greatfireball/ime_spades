@@ -31,3 +31,7 @@ ENV PATH "/opt/spades/bin:$PATH"
 # Setup of /data volume and set it as working directory
 VOLUME /data
 WORKDIR /data
+
+ENTRYPOINT ["/opt/spades/bin/spades.py"]
+
+CMD ["--test"]
