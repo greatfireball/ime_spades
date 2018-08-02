@@ -15,7 +15,7 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
       org.label-schema.build-date=${BUILD_DATE} \
       org.label-schema.vcs-url="https://github.com/greatfireball/ime_spades.git"
 
-# RUN apt update && apt install --yes \
+ RUN apt update && apt install --yes \
 #     liblog-log4perl-perl \
 #     libmoose-perl \
 #     libfile-which-perl \
@@ -30,7 +30,7 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
 #     ghostscript \
 #     jellyfish \
 #     python \
-#     wget \
+     wget
 #     git
 
 RUN cd /tmp/ && \
