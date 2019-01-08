@@ -7,7 +7,7 @@ The docker image runs `spades.py` as entry point and `--test` as command.
 Therefore, if running the container, the test assembly will be performed.
 
 ```
-docker run --rm -greatfireball/ime_spades --version
+docker run --rm greatfireball/ime_spades --version
 ```
 
 Just provide all required parameters via command line.
